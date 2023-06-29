@@ -1,0 +1,13 @@
+hr {
+    margin: 0;
+    background: var(--gray);
+    height: 1px;
+}
+
+.footer {
+    padding: 1.5em;
+}
+
+.footer__text {
+    color: var(--black);
+}
