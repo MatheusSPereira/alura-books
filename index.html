@@ -41,11 +41,46 @@
           src="assets/logo.svg"
           alt="Logo da AluraBooks"
         />
+        <h1 class="container__title">
+          <b class="container__title--bold">Alura</b>Books
+        </h1>
       </div>
+
+      <ul class="options">
+        <input type="checkbox" id="options-menu" class="options__button" />
+        <label for="options-menu">
+          <li class="options__item">Categorias</li>
+        </label>
+        <ul class="menu-list">
+          <li class="menu-list__item">
+            <a class="menu-list__link" href="#">Programação</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__link" href="#">Front-end</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__link" href="#">Infraestrutura</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__link" href="#">Business</a>
+          </li>
+          <li class="menu-list__item">
+            <a class="menu-list__link" href="#">Design & UX</a>
+          </li>
+        </ul>
+        <li class="options__item">
+          <a href="#" class="options__link">Favoritos</a>
+        </li>
+        <li class="options__item">
+          <a href="#" class="options__link">Minha Estante</a>
+        </li>
+      </ul>
+
+      <!-- icons -->
       <div class="container">
         <a href="#"
           ><img
-            class="container__image"
+            class="container__image container__fav__icon"
             src="assets/favoritos.svg"
             alt="Meus favoritos"
         /></a>
@@ -63,6 +98,7 @@
         /></a>
       </div>
     </header>
+
     <section class="banner">
       <h2 class="banner__title">Já sabe por onde começar?</h2>
       <p class="banner__text">
@@ -271,10 +307,12 @@
     </section>
 
     <section class="contact">
-      <h2 class="contact__description">Fique por dentro das novidades!</h2>
-      <p class="contact__text">
-        Atualizações de e-books, novos livros, promoções e outros.
-      </p>
+      <div class="contact__description">
+        <h2 class="contact__title">Fique por dentro das novidades!</h2>
+        <p class="contact__text">
+          Atualizações de e-books, novos livros, promoções e outros.
+        </p>
+      </div>
       <input
         type="email"
         class="contact__email"
@@ -285,7 +323,131 @@
     <hr />
 
     <footer class="footer">
-      <p class="footer__text">Grupo Alura</p>
+      <h2 class="footer__text">Grupo Alura</h2>
+
+      <!-- 1st list -->
+      <ul class="footer-list">
+        <li class="footer-list__title">Educação</li>
+        <li class="footer-list__item">
+          <img
+            src="assets/footer/CasaDoCodigo.svg"
+            alt="Logo casa do codigo"
+          /><a class="footer-list__link" href="#">Casa do código</a>
+        </li>
+        <li class="footer-list__item">
+          <img src="assets/footer/Caelum.svg" alt="Logo Caelum" /><a
+            class="footer-list__link"
+            href="#"
+            >Caelum</a
+          >
+        </li>
+      </ul>
+
+      <!-- 2nd list -->
+      <ul class="footer-list">
+        <li class="footer-list__title">Educação Online</li>
+        <li class="footer-list__item">
+          <img src="assets/footer/Alura.svg" alt="Logo Alura" /><a
+            class="footer-list__link"
+            href="#"
+            >Alura</a
+          >
+        </li>
+        <li class="footer-list__item">
+          <img
+            src="assets/footer/AluraEmpresas.svg"
+            alt="Logo AluraEmpresas"
+          /><a class="footer-list__link" href="#">Alura Para Empresas</a>
+        </li>
+        <li class="footer-list__item">
+          <img src="assets/footer/AluraLATAM.svg" alt="Logo AluraLATAM" /><a
+            class="footer-list__link"
+            href="#"
+            >Alura LATAM</a
+          >
+        </li>
+        <li class="footer-list__item">
+          <img src="assets/footer/AluraStart.svg" alt="Logo AluraStart" /><a
+            class="footer-list__link"
+            href="#"
+            >Alura Start</a
+          >
+        </li>
+        <li class="footer-list__item">
+          <img src="assets/footer/MusicDot.svg" alt="Logo MusicDot" /><a
+            class="footer-list__link"
+            href="#"
+            >MusicDot</a
+          >
+        </li>
+        <li class="footer-list__item">
+          <img src="assets/footer/AluraLingua.svg" alt="Logo AluraLingua" /><a
+            class="footer-list__link"
+            href="#"
+            >Alura Lingua</a
+          >
+        </li>
+        <li class="footer-list__item">
+          <img src="assets/footer/PM3.svg" alt="Logo PM3" /><a
+            class="footer-list__link"
+            href="#"
+            >PM3</a
+          >
+        </li>
+      </ul>
+
+      <!-- 3th list-->
+      <ul class="footer-list">
+        <li class="footer-list__title">Comunidade</li>
+        <li class="footer-list__item">
+          <img src="assets/footer/HipstersTech.svg" alt="Logo HipstersTech" /><a
+            class="footer-list__link"
+            href="#"
+            >Hipsters ponto Tech</a
+          >
+        </li>
+        <li class="footer-list__item">
+          <img src="assets/footer/ScubaDev.svg" alt="Logo Scuba" /><a
+            class="footer-list__link"
+            href="#"
+            >Scuba Dev</a
+          >
+        </li>
+        <li class="footer-list__item">
+          <img src="assets/footer/LayersTech.svg" alt="Logo LayersTech" /><a
+            class="footer-list__link"
+            href="#"
+            >LayersTech ponto Tech</a
+          >
+        </li>
+        <li class="footer-list__item">
+          <img src="assets/footer/LikeABoss.svg" alt="Logo LikeABoss" /><a
+            class="footer-list__link"
+            href="#"
+            >Like a Boss</a
+          >
+        </li>
+        <li class="footer-list__item">
+          <img
+            src="assets/footer/CarreiraSemFronteira.svg"
+            alt="Logo CarreiraSemFronteira"
+          /><a class="footer-list__link" href="#">Carreira Sem Fronteira</a>
+        </li>
+        <li class="footer-list__item">
+          <img src="assets/footer/HipstersJobs.svg" alt="Logo HipstersJobs" /><a
+            class="footer-list__link"
+            href="#"
+            >Hipsters ponto Jobs</a
+          >
+        </li>
+        <li class="footer-list__item">
+          <img src="assets/footer/GUJ.svg" alt="Logo GUJ" /><a
+            class="footer-list__link"
+            href="#"
+            >GUJ</a
+          >
+        </li>
+      </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

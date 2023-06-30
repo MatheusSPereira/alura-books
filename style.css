@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carousel.css");
@@ -7,15 +7,17 @@
 @import url("styles/footer.css");
 
 :root {
-    --background: #EBECEE;
+    --background: #e0e1e2;
     --white: #FFFFFF;
     --orange: #EB9B00;
     --blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --blue: #002F52;
     --black: rgba(0, 0, 0, 0.85);
-    --gray: #858585;
+    --gray: #474646;
+    --ligth-gray: #858585;
 
     --main-font: 'Poppins';
+    --secondary-font: 'Josefin Sans', sans-serif;
 }
 
 body {

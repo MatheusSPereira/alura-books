@@ -11,3 +11,41 @@ hr {
 .footer__text {
     color: var(--black);
 }
+
+.footer-list {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer__text {
+        font-size: 24px;
+    }
+
+    .footer-list {
+        display: block;
+    }
+
+    .footer-list__item {
+        display: flex;
+        align-items: center;
+        margin: 1em 0;
+    }
+
+    .footer-list__link {
+        color: var(--gray);
+        text-decoration: none;
+        margin-left: 0.5em;
+        font-size: 14px;
+    }
+
+    .footer-list__title {
+        color: var(--ligth-gray);
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+}
