@@ -7,7 +7,7 @@
 .topics__title {
     color: var(--white);
     font-weight: 300;
-    padding: 1.5em 0 2em 0;
+    padding: 0 0 2em 0;
     text-transform: uppercase;
 }
 
@@ -37,5 +37,15 @@
 
     .topics__list__item__link {
         font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topics {
+        padding: 3em 20vw;
+    }
+
+    .topics__title {
+        font-size: 32px;
     }
 }
