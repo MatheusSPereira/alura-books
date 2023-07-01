@@ -109,6 +109,11 @@
         width: 50%;
         margin: 2em auto;
     }
+
+    .buttons__anchor:hover {
+        background-color: var(--blue);
+        color: var(--orange);
+    }
 }
 
 @media screen and (min-width: 1728px) {
